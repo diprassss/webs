@@ -1,0 +1,154 @@
+<!DOCTYPE html><html><head>
+    <title>My Website</title>
+    <link href="css/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-200">
+
+    <!-- Navigasi -->
+    <nav class="flex items-center justify-between flex-wrap bg-black p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <a href="#" class="font-semibold text-xl tracking-tight">My Website</a>
+        </div>
+        <div class="block lg:hidden">
+            <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                </svg>
+            </button>
+        </div>
+        <div id="nav-menu" class="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden">
+            <div class="text-sm lg:flex-grow">
+                <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+                    Home
+                </a>
+                <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+                    About
+                </a>
+                <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
+                    Contact
+                </a>
+            </div>
+            <div>
+                <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-blue-500 mt-4 lg:mt-0 transform hover:rotate-360">Sign
+                    Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-gray-800 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center text-gray-100">Fashion for everyone</h2>
+            <p class="text-xl text-center text-gray-100 mt-4 mb-16">Discover the latest trends in clothing and
+                accessories at our store</p>
+            <div class="flex justify-center">
+                <a href="#" class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Shop
+                    Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16">Our Services</h2>
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <img src="https://source.unsplash.com/random/400x300" alt="Random image" class="w-full rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mt-3 mb-4">Great Suppliers</h3>
+                        <p class="text-gray-700">We work with top suppliers to bring you the best quality products at
+                            affordable prices.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <img src="https://source.unsplash.com/random/400x300" alt="Random image" class="w-full rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mt-3 mb-4">Affordable Prices</h3>
+                        <p class="text-gray-700">We offer competitive pricing on all of our products, so you can get
+                            great deals on everything you need.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-8">
+                    <div class="bg-white rounded-lg shadow-lg p-8">
+                        <img src="https://source.unsplash.com/random/400x300" alt="Random image" class="w-full rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold text-gray-800 mt-3 mb-4">Excellent Service</h3>
+                        <p class="text-gray-700">Our friendly and helpful customer service team is always here to assist
+                            you with any questions or concerns you may have.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/4 px-4 mb-8">
+                    <h3 class="text-xl font-bold text-gray-100 mb-4">About Us</h3>
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in arcu
+                        a nibh dictum tempor. Nam lacinia magna nec elit pellentesque, sed dignissim nulla euismod.</p>
+                </div>
+                <div class="w-full md:w-1/4 px-4 mb-8">
+                    <h3 class="text-xl font-bold text-gray-100 mb-4">Quick Links</h3>
+                    <ul class="list-reset text-gray-600">
+                        <li><a href="#" class="text-gray-600 hover:text-gray-100">Home</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-gray-100">Shop</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-gray-100">About</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-gray-100">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 px-4 mb-8">
+                    <h3 class="text-xl font-bold text-gray-100 mb-4">Contact Us</h3>
+                    <p class="text-gray-600 mb-4">Phone: (123) 456-7890</p>
+                    <p class="text-gray-600 mb-4">Email: info@example.com</p>
+                    <p class="text-gray-600">Address: 123 Main Street, Anytown USA</p>
+                </div>
+                <div class="w-full md:w-1/4 px-4 mb-8">
+                    <h3 class="text-xl font-bold text-gray-100 mb-4">Follow Us</h3>
+                    <ul class="flex items-center list-reset">
+                        <li>
+                            <a href="#" class="text-gray-600 hover:text-gray-100">
+                                <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                                    </svg>
+                            </a>
+                        </li>
+                        <li class="ml-4">
+                            <a href="#" class="text-gray-600 hover:text-gray-100">
+                                <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                                    </svg>
+                            </a>
+                        </li>
+                        <li class="ml-4">
+                            <a href="#" class="text-gray-600 hover:text-gray-100">
+                                <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M21 3.01H3c-1.1 0-2 .9-2 2V9h2V4.99h18v14.03H3V15H1v4.01c0 1.1.9 1.98 2 1.98h18c1.1 0 2-.88 2-1.98v-14a2 2 0 0 0-2-2zM11 16l4-4-4-4v3H1v2h10v3z"/>
+                                    </svg>
+                            </a>
+                        </li>
+                        <li class="ml-4">
+                            <a href="#" class="text-gray-600 hover:text-gray-100">
+                                <svg class="h-6w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3zm-2.85 2.85L12.7 14.2a.998.998 0 0 1-1.41 0L8 13.3a.996.996 0 0 1 0-1.41L11.3 8a1 1 0 0 1 1.41 0l4.3 4.29 2.14-2.13a.995.995 0 0 1 1.41 0l2.14 2.15a1 1 0 0 1 0 1.41L13.7 16.7a.998.998 0 0 1-1.41 0z"/>
+                                    </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('#nav-toggle');
+        const navMenu = document.querySelector('#nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('hidden');
+        });
+    </script>
+
+
+</body></html>
